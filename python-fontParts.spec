@@ -13,7 +13,8 @@ Release:	1
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/fontparts/
-Source0:	https://files.pythonhosted.org/packages/source/f/fontparts/fontParts-%{version}.zip
+#Source0:	https://files.pythonhosted.org/packages/source/f/fontparts/fontParts-%{version}.zip
+Source0:	https://files.pythonhosted.org/packages/5f/d2/4afe54075ba11b3bcd7803f21b0c265992ceb572ca94725272cd3a30cd35/fontParts-%{version}.zip
 # Source0-md5:	e6b517961d4da511e2ebe49fab763126
 URL:		https://pypi.org/project/fontparts/
 %if %(locale -a | grep -q '^C\.utf8$'; echo $?)
